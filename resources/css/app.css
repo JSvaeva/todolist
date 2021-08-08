@@ -1,0 +1,106 @@
+body {
+    font-family: monospace;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.block {
+    text-align: center;
+    border: solid 2px grey;
+    box-shadow: 2px 5px 4px grey;
+    padding: 2%;
+    width: 30%;
+    margin: auto;
+    border-radius: 1%;
+    min-width: 450px;
+    max-width:450px;
+}
+
+.btn {
+    color: white;
+    width: 25px;
+    height: 25px;
+    border: none;
+    font-weight: 600;
+}
+
+.not-done-button {
+    background-color: rgb(238, 238, 128);
+}
+
+.not-done-button:hover {
+    background-color: rgb(230, 207, 0);
+}
+
+.done-button {
+    background-color: rgb(190, 224, 190);
+}
+
+.done-button:hover {
+    background-color: forestgreen;
+}
+
+.add-button {
+    background-color: forestgreen;
+}
+
+.add-button:hover {
+    background-color: green;
+}
+
+.edit-button {
+    background-color: rgb(187, 203, 235);
+}
+
+.edit-button:hover, .editing {
+    background-color: cornflowerblue;
+}
+
+.editing:hover {
+    background-color: rgb(84, 124, 199);
+}
+
+.del-button {
+    background-color: rgb(233, 192, 200);
+    float: right;
+}
+
+.del-button:hover {
+    background-color: crimson;
+}
+
+input[type="text"] {
+    height: 21px;
+    border: solid 1px grey;
+    border-radius: 2%;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.save-input {
+    width: 90%;
+}
+
+.input-editing {
+    width: 75%;
+}
+
+.task-row {
+    margin: 9px 0px;
+}
+
+.tasks-list {
+    border: solid 1px grey;
+    margin-top: 20px;
+    border-radius: 2%;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.done-text {
+    color: grey;
+}
+
+form {
+    display: inline;
+}
